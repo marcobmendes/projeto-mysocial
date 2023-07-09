@@ -47,6 +47,11 @@ iframe#tela {
     height: 471px;
 }
 
+iframe#tela::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
 section#redes-sociais {
     text-align: right;
 }
